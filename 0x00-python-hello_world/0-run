@@ -1,7 +1,2 @@
 #!/bin/bash
-if [ -z "$PYFILE" ]; then
-	echo "Error: PYFILE Environment is not set:"
-	echo "Setting soon"
-	export PYFILE=main.py
-fi
 python3 "$PYFILE"
