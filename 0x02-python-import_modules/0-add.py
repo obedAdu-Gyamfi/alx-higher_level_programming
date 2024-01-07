@@ -15,4 +15,4 @@ if __name__ == "__main__":
         __import__ or __import__ * is used to
         import
     """
-    print(f"{a} + {b} = {add_0.add(a, b)}")
+    print("{:d} + {:d} = {:d}".format(a, b, add_0.add(a, b)))
