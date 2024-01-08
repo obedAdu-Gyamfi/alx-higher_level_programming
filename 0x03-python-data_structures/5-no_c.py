@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # -------------------------------
 # This function removes the character c from
@@ -10,6 +10,10 @@ def no_c(my_string):
 
     """ Removes the character c from string.
 
+    Args:
+        @my_string
+    Return:
+        new_string without c or C
     """
     new_string = []
     for i in my_string:
