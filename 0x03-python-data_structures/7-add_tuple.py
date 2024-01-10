@@ -4,7 +4,6 @@
 # tuples
 # @Obed Adu-Gyamfi
 # --------------------------------
-
 def add_tuple(tuple_a=(), tuple_b=()):
 
     """ This function adds two tuples
