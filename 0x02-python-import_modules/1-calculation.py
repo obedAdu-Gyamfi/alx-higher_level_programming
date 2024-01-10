@@ -1,17 +1,7 @@
 #!/usr/bin/python3
 
-# -------------------------
-# A python basic calculator
-# This module does not execute if imported with * or
-# __import__
-# (c) Obed Adu-Gyamfi
-# Email: adugyamfiobed.tpp3@gmail.com
-# ------------------------
-
 from calculator_1 import add, sub, mul, div
 if __name__ == "__main__":
-    """Module does basic arithmetic calculation"""
-    # from calculator_1 import add, sub, mul, div
 
     a = 10
     b = 5
