@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-
-# Python basic Calculator
-
 from add_0 import add
 
 if __name__ == "__main__":
