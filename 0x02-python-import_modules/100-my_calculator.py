@@ -11,13 +11,13 @@ if __name__ == "__main__":
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
 
-    operator = alist[1]
+    operator = argv[2]
 
     if (operator == "+"):
         a = int(alist[0])
         b = int(alist[2])
         print("{} + {} = {}".format(a, b, add(a, b)))
-    elif (operator == '*'):
+    elif (operator == "*"):
         a = int(alist[0])
         b = int(alist[2])
         print("{} * {} = {}".format(a, b, mul(a, b)))
