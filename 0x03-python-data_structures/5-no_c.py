@@ -1,11 +1,4 @@
 #!/usr/bin/python3
-
-# -------------------------------
-# This function removes the character c from
-# Every string.
-# @Obed Adu-Gyamfi
-# -------------------------------
-
 def no_c(my_string):
 
     """ Removes the character c from string.
