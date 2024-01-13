@@ -4,9 +4,11 @@
 # of an element by anoter in a new list.
 
 def search_replace(my_list, search, replace):
+    new_list = []
 
-    for i in range(len(my_list) - 1):
+    for i in range(len(my_list)):
+        new_list.append(my_list[i])
         if my_list[i] == search:
-            my_list[i] = replace
+            new_list[i] = replace
 
-    return (my_list)
+    return (new_list)
